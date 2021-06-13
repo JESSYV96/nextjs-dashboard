@@ -17,6 +17,15 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    ul {
+      list-style: none;
+      padding: 0;
+      color: colors.$secondary-color;
+      a {
+        text-decoration: none;
+        color: colors.$secondary-color;
+      }
+    }
   }
 
   .withdraw {
@@ -41,7 +50,6 @@
       span {
         font-family: "Mukta-Bold";
         padding-left: 1rem;
-      
       }
     }
   }

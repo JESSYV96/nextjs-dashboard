@@ -5,7 +5,6 @@ interface CardProps {
     content: string | Number,
 }
 
-
 const CardProject = ({ title, content }: CardProps) => {
     return (
         <div className={styles.card}>

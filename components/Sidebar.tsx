@@ -8,8 +8,8 @@ const Sidebar = () => {
             <span className={styles.title}>JessyV96</span>
             <div className={styles.menuContainer}>
                 <ul>
-                    <li><Link href="/"><a>Home</a></Link></li>
-                    <li><Link href="/projects"><a>Referred Projects</a></Link> <span>0</span></li>
+                    <li><Link href="/">Home</Link></li>
+                    <li><Link href="/projects">Referred Projects</Link><span>0</span></li>
                     <li>Resources</li>
                     <li>Store Feedback</li>
                 </ul>
