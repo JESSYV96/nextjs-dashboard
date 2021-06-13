@@ -1,0 +1,22 @@
+.card {
+  background-color: #fff;
+  height: 12rem;
+  width: 19rem;
+
+  %commons {
+    margin: 1rem;
+  }
+
+  .title {
+    @extend %commons;
+    font-family: "Mukta-Bold";
+    font-size: 0.9rem;
+    text-decoration: underline dotted;
+  }
+
+  .content {
+    @extend %commons;
+    font-family: 'Mukta-ExtraBold';
+    font-size: 2rem;
+  }
+}

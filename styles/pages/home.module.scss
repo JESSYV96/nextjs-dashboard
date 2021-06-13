@@ -6,9 +6,9 @@
   flex-direction: column;
   justify-content: flex-start;
   margin: 0rem 3rem;
+
   .titleContainer {
-    //
-    margin-top: 5rem;
+    margin-top: 2rem;
 
     .title {
       font-size: 1.8rem;
@@ -22,8 +22,17 @@
   }
 
   .ambassadorContainer {
-    //margin: 0 2rem;
     display: flex;
     flex-direction: row;
+  }
+
+  .comparisonContainer {
+    margin-bottom: 1.5rem;
+  }
+
+  .projectContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    grid-gap: 20px;
   }
 }

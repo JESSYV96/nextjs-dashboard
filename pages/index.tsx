@@ -1,4 +1,5 @@
 import React from 'react'
+import CardProject from '../components/CardProject'
 import WidgetAmbassador from '../components/WidgetAmbassador'
 import WidgetAmbassadorLevel from '../components/WidgetAmbassadorLevel'
 import WidgetComparison from '../components/WidgetComparison'
@@ -26,7 +27,12 @@ export default function Home() {
           <WidgetComparison />
         </div>
         <div className={styles.projectContainer}>
-
+          <CardProject title="Project referred" content={76} />
+          <CardProject title="Project paid" content={55} />
+          <CardProject title="Project completed" content={32} />
+          <CardProject title="Average conversion rate" content="54.22%" />
+          <CardProject title="Project paid" content="380.72€" />
+          <CardProject title="Merchants" content={21} />
         </div>
       </div>
 
