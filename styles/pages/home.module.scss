@@ -1,23 +1,29 @@
 @use '../colors';
 @use '../fonts';
 
-.titleContainer {
-  margin: 0rem 3rem;
-  margin-top: 5rem;
-
-  .title {
-    font-size: 1.8rem;
-    margin: 0;
-  }
-
-  .subtitle {
-    font-size: 0.8rem;
-    color: colors.$secondary-color;
-  }
-}
-
-.ambassadorContainer {
-  margin: 0 2rem;
+.alignBlocs {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0rem 3rem;
+  .titleContainer {
+    //
+    margin-top: 5rem;
+
+    .title {
+      font-size: 1.8rem;
+      margin: 0;
+    }
+
+    .subtitle {
+      font-size: 0.8rem;
+      color: colors.$secondary-color;
+    }
+  }
+
+  .ambassadorContainer {
+    //margin: 0 2rem;
+    display: flex;
+    flex-direction: row;
+  }
 }

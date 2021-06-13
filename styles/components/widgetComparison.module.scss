@@ -1,0 +1,29 @@
+@use '../colors';
+
+.comparisonContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  %commons {
+    color: colors.$secondary-color;
+  }
+  .monthWidget {
+    @extend %commons;
+    display: flex;
+    padding: 0.2rem 0.8rem;
+    border: 1px solid colors.$secondary-color;
+    border-radius: 0 30px 30px 30px;
+    justify-content: space-around;
+    align-items: center;
+    span {
+        margin: 0 0.5rem;
+        font-size: 0.8rem;
+    }
+  }
+
+  p {
+    @extend %commons;
+    margin: 0.5rem;
+    font-size: 0.8rem;
+  }
+}
