@@ -1,7 +1,10 @@
-import '../styles/globals.css'
+import '../styles/globals.scss'
 import type { AppProps } from 'next/app'
+import DashboardLayout from '../layouts/DashboardLayout'
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return <DashboardLayout>
+    <Component {...pageProps} />
+  </DashboardLayout>
 }
 export default MyApp

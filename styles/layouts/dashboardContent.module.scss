@@ -1,0 +1,6 @@
+@use '../colors';
+
+.dashboardContent {
+    background-color: colors.$secondary-color;
+    width: 100%;
+}
