@@ -14,10 +14,10 @@ const Sidebar = () => {
                     <li>Store Feedback</li>
                 </ul>
                 <div className={styles.withdraw}>
-                    <span>93,34€</span>
-                    <div className={styles.withdrawButtonContainer}>
-                        <FiTrendingUp color="white"/>
-                        Withdraw
+                    <span className={styles.amountCommission}>93,34€</span>
+                    <div>
+                        <FiTrendingUp color="white" size={20} />
+                        <span>Withdraw</span>
                     </div>
                 </div>
             </div>

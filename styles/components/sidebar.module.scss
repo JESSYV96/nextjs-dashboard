@@ -24,18 +24,24 @@
     flex-direction: column;
     align-items: center;
 
-    span {
-      font-family: 'Mukta-Bold';
+    .amountCommission {
+      font-family: "Mukta-Bold";
       font-size: 1.4rem;
       padding: 1rem 3.5rem;
       background-color: colors.$background;
       border-radius: 0 15px 0 0;
     }
     div {
-      padding: 0.7em 3.5em;
+      display: flex;
+      align-items: center;
+      padding: 0.7em 2.35em;
       background-color: colors.$primary-color;
       color: #fff;
-      border-radius: 0 25px 25px 20px;
+      border-radius: 0 18px 18px 20px;
+      span {
+        font-family: "Mukta-Bold";
+        padding-left: 1rem;
+      }
     }
   }
 }
