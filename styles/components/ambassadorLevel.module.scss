@@ -1,0 +1,20 @@
+.levelContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  margin: 2rem 0;
+  border-radius: 5px;
+  background-color: #fff;
+
+  .medalContainer { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6ecbc;
+    width: 40px;
+    border-radius: 20px;
+    padding: 10px;
+  }
+}
