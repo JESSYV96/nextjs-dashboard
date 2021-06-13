@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { FiTrendingUp } from 'react-icons/fi';
 import styles from '../styles/components/sidebar.module.scss';
 
 const Sidebar = () => {
@@ -14,7 +15,10 @@ const Sidebar = () => {
                 </ul>
                 <div className={styles.withdraw}>
                     <span>93,34€</span>
-                    <div>Withdraw</div>
+                    <div className={styles.withdrawButtonContainer}>
+                        <FiTrendingUp color="white"/>
+                        Withdraw
+                    </div>
                 </div>
             </div>
         </nav>
