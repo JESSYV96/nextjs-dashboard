@@ -1,4 +1,4 @@
-import React from 'react'
+import Head from 'next/head'
 import CardProject from '../components/CardProject'
 import WidgetAmbassador from '../components/WidgetAmbassador'
 import WidgetAmbassadorLevel from '../components/WidgetAmbassadorLevel'
@@ -9,6 +9,10 @@ import styles from '../styles/pages/home.module.scss'
 export default function Home() {
   return (
     <ContentLayout>
+      <Head>
+        <title>Home</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className={styles.alignBlocs}>
         <div className={styles.titleContainer}>
           <h2 className={styles.title}>Good afternoon, Tim</h2>
