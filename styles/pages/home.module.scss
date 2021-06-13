@@ -1,6 +1,23 @@
 @use '../colors';
+@use '../fonts';
 
-.homeContainer {
-   
+.titleContainer {
+  margin: 0rem 3rem;
+  margin-top: 5rem;
+
+  .title {
+    font-size: 1.8rem;
+    margin: 0;
+  }
+
+  .subtitle {
+    font-size: 0.8rem;
+    color: colors.$secondary-color;
+  }
 }
-  
+
+.ambassadorContainer {
+  margin: 0 2rem;
+  display: flex;
+  flex-direction: row;
+}

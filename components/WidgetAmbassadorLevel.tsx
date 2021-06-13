@@ -1,8 +1,8 @@
 import { RiMedalLine } from 'react-icons/ri';
 
-import styles from '../styles/components/ambassadorLevel.module.scss'
+import styles from '../styles/components/widgetAmbassador.module.scss'
 
-const AmbassadorLevel = () => {
+const WidgetAmbassadorLevel = () => {
     return (
         <div className={styles.levelContainer}>
             <div className={styles.medalContainer}>
@@ -17,4 +17,4 @@ const AmbassadorLevel = () => {
     )
 }
 
-export default AmbassadorLevel
+export default WidgetAmbassadorLevel

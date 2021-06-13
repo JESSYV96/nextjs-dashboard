@@ -1,6 +1,9 @@
 @use '../colors';
 
 .dashboardContent {
-    background-color: colors.$background;
-    width: 100%;
+  background-color: colors.$background;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
