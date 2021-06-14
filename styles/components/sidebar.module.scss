@@ -17,6 +17,17 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+
+    .nbReffered {
+      font-family: "Mukta-ExtraBold";
+      background-color: colors.$background;
+      color: colors.$secondary-color;
+      padding: 0rem 0.4rem;
+      margin: 0 0.4rem;
+      font-size: 0.7rem;
+      border-radius: 0 10px 10px;
+    }
+
     ul {
       list-style: none;
       padding: 0;

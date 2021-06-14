@@ -9,7 +9,7 @@ const Sidebar = () => {
             <div className={styles.menuContainer}>
                 <ul>
                     <li><Link href="/">Home</Link></li>
-                    <li><Link href="/projects">Referred Projects</Link><span>0</span></li>
+                    <li><Link href="/projects">Referred Projects</Link> <span className={styles.nbReffered}>0</span></li>
                     <li>Resources</li>
                     <li>Store Feedback</li>
                 </ul>
